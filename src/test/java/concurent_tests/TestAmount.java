@@ -1,7 +1,7 @@
 package concurent_tests;
 
-import concurrent_test.Account;
-import concurrent_test.Transfer;
+import concurrent.Account;
+import concurrent.Transfer;
 import junit.framework.TestCase;
 import org.junit.Test;
 
