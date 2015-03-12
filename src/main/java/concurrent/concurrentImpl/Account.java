@@ -1,4 +1,4 @@
-package concurrent;
+package concurrent.concurrentImpl;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
