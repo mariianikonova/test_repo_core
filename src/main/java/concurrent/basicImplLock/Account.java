@@ -13,11 +13,11 @@ public class Account {
 
     private volatile int balance;
 
+    private Lock lock;
+
     public Lock getLock() {
         return lock;
     }
-
-    private Lock lock;
 
     public Account(int initValue) {
         this.balance = initValue;

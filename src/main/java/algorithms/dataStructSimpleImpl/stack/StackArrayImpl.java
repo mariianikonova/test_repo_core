@@ -3,9 +3,9 @@ package algorithms.dataStructSimpleImpl.stack;
 /**
  * Created by user on 11.03.15.
  */
-public class StackImpl {
+public class StackArrayImpl {
 
-    public StackImpl(int capacity) {
+    public StackArrayImpl(int capacity) {
         this.capacity = capacity;
         this.stack = new Integer[capacity];
     }
@@ -47,7 +47,7 @@ public class StackImpl {
     }
 
     public static void main(String[] args) {
-        StackImpl stack = new StackImpl(100);
+        StackArrayImpl stack = new StackArrayImpl(100);
         stack.push(new Integer(5));
         stack.push(new Integer(2));
         stack.push(new Integer(6));

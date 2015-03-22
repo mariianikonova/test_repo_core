@@ -3,9 +3,9 @@ package algorithms.dataStructSimpleImpl.queque;
 /**
  * Created by user on 11.03.15.
  */
-public class QueueImpl {
+public class QueueArrayImpl {
 
-    public QueueImpl(int capacity) {
+    public QueueArrayImpl(int capacity) {
         this.capacity = capacity;
         this.queue = new Integer[capacity];
         this.peekIndex = capacity - 1;
@@ -54,7 +54,7 @@ public class QueueImpl {
     }
 
     public static void main(String[] args) {
-        QueueImpl queue = new QueueImpl(10);
+        QueueArrayImpl queue = new QueueArrayImpl(10);
         queue.push(new Integer(5));
         queue.push(new Integer(2));
         queue.push(new Integer(6));
