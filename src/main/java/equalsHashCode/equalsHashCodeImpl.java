@@ -1,11 +1,10 @@
 package equalsHashCode;
 
-import generics.Kind1;
 
 /**
  * Created by user on 04.03.15.
  */
-public class EqualsHashCodeImpl implements Comparable<EqualsHashCodeImpl> {
+class EqualsHashCodeImpl implements Comparable<EqualsHashCodeImpl> {
 
     String name;
     int age;
@@ -63,7 +62,6 @@ public class EqualsHashCodeImpl implements Comparable<EqualsHashCodeImpl> {
         return res;
     }
 
-    @Override
     public int compareTo(EqualsHashCodeImpl o) {
         return this.getName().compareTo(o.getName()) == 0 ? Integer.compare(this.getAge(), o.getAge()) : this.getName().compareTo(o.getName());
     }

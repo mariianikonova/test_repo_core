@@ -2,7 +2,6 @@ package collections;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.function.BiConsumer;
 
 /**
  * Created by user on 03.03.15.
